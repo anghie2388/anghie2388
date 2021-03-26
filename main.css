@@ -1,0 +1,37 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header{
+    background-color: #2699FB;
+    height: 3cm;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    padding-top: 1cm;
+    padding-left: 10px;
+    }
+
+.first{
+    text-align: right;
+    padding-right: 3in;
+}
+.second{
+    text-align: right;
+    padding-right: 1.75in;
+    font-size: large;
+}
+#line {
+     border: 1px dashed #2699FB; width: 90%; margin: auto; margin-top: 1%; margin-bottom: 5%; 
+}
+#me {
+    font-size: 24px;
+    text-align: center; 
+    padding-top: 0.5cm;
+    padding-bottom: 0%;
+}
+.displaypic{
+    text-align: center;
+    display: inline-block;
+}
