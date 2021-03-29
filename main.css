@@ -25,13 +25,32 @@ header{
 #line {
      border: 1px dashed #2699FB; width: 90%; margin: auto; margin-top: 1%; margin-bottom: 5%; 
 }
-#me {
+.me {
     font-size: 24px;
     text-align: center; 
     padding-top: 0.5cm;
     padding-bottom: 0%;
 }
-.displaypic{
-    text-align: center;
-    display: inline-block;
+
+#displaypic{
+    text-align:center;
+    content: "";
+  clear: both;
+    float: left;
+    width: 33.33%;   
+    
+}
+#dp {
+    padding-left: 1in;
+    text-align: left;
+
+}
+#myself:after {
+    vertical-align: middle;
+}
+#expe ::after {
+    font-size: 24px;
+    text-align: center; 
+    padding-top: 0.5cm;
+    padding-bottom: 0%; 
 }
