@@ -9,6 +9,7 @@ header{
     width: 100%;
     color: white;
     font-size: 22px;
+
     padding-top: 1cm;
     padding-left: 10px;
     }
@@ -23,7 +24,7 @@ header{
     font-size: large;
 }
 #line {
-     border: 1px dashed #2699FB; width: 90%; margin: auto; margin-top: 1%; margin-bottom: 5%; 
+     border: 1px dashed #2699FB; width: 90%; margin: auto; margin-top: 1%; margin-bottom: 2%; 
 }
 .me {
     font-size: 24px;
@@ -32,25 +33,54 @@ header{
     padding-bottom: 0%;
 }
 
-#displaypic{
-    text-align:center;
-    content: "";
-  clear: both;
-    float: left;
-    width: 33.33%;   
+.division_one {
+    display: flex;
+}
+#picture  {
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+}
+
+.displaypic {
+    padding-left: 3cm;
+    padding-top: 0%;
     
 }
-#dp {
-    padding-left: 1in;
-    text-align: left;
+.discrip {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1.5cm;
+    padding-left: 1cm;
+    padding-right: 1.5cm;
+}
 
+.division_two {
+    display: flex;
+    font-size: 20px;
+        
 }
-#myself:after {
-    vertical-align: middle;
+
+.duration {
+    padding-left: 8cm;
 }
-#expe ::after {
+
+.me_two {
     font-size: 24px;
     text-align: center; 
-    padding-top: 0.5cm;
-    padding-bottom: 0%; 
+    padding-top: 1.5cm;
+    padding-bottom: 0%;
+}
+
+.uni {
+    font-size: 20px;
+    text-align: center;
+}
+footer{
+    background-color: #2699FB;
+    height: 3cm;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    margin-top: 2cm;
 }
